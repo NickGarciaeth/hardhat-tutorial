@@ -1,0 +1,20 @@
+## Fill in .env file with:
+PRIVATE_KEY1 = ''
+ACCCOUNT1 = ''
+PRIVATE_KEY2 = ''
+ACCOUNT2 = ''
+INFURA_KEY = ''
+INFURA_SEPOLIA = ''
+
+
+## To use command line
+
+# compile contract
+npx hardhat compile
+
+# Run tests
+npx hardhat test
+
+# Deploy contract to sepolia
+npx hardhat run scripts/deploy.js --network sepolia
+
